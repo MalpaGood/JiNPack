@@ -13,6 +13,11 @@ body {
     justify-content: center;
     padding: 64px;
     overflow-x: hidden;
+    background-image: url(JinPackBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -65,13 +70,6 @@ h2 {
 html {
     box-sizing: border-box;
     font-size: 100%;
-}
-
-body {
-    font-family: "Nunito", sans-serif;
-    color: #333;
-    font-weight: 300;
-    line-height: 1.6;
 }
 
 .description {
@@ -131,25 +129,6 @@ body {
     max-width: 80%;
     max-height: 50%;
     border-radius: 20px;
-}
-
-.language-switch {
-    text-align: right;
-    text-decoration: none;
-    size: 15px;
-}
-
-* {
-    box-sizing: border-box;
-}
-body {
-    font-family: Verdana, sans-serif;
-}
-.mySlides {
-    display: none;
-}
-img {
-    vertical-align: middle;
 }
 
 .slideshow-container {
@@ -215,6 +194,7 @@ footer {
     padding: 20px;
     text-align: center;
     border-top: 1px solid #e7e7e7;
+    border-radius: 40px;
 }
 
 .c-item {
@@ -487,4 +467,12 @@ h2 {
     .logo-image {
         height: 100px;
     }
+}
+
+.tekst {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+    border-radius: 40px;
 }
