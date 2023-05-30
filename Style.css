@@ -300,10 +300,10 @@ h2 {
 }
 
 .logo-image {
-    width: auto;
-    height: 180px;
-    margin-right: 20px;
+    width: 200px; /* Ajust this value to fit your needs */
+    height: auto; /* Keep this to maintain the aspect ratio of your logo */
 }
+
 @media screen and (max-width: 767px) {
     .logo-image {
         height: 100px;
