@@ -13,6 +13,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <title>JiN Pack</title>
         <style>
+            /* Styling for small devices */
             @media (max-width: 575.98px) {
                 .logo-title {
                     font-size: 2em;
@@ -21,12 +22,30 @@
                 div {
                     padding: 15px;
                 }
+
+                .c-img {
+                    height: auto; /* Make images responsive by setting height to auto */
+                    object-fit: cover; /* Cover the entire area of the image container */
+                }
             }
-        </style>
-        <style>
+
+            /* Styling for medium devices */
             @media (max-width: 768px) {
                 body {
                     padding: 20px;
+                }
+
+                .c-img {
+                    height: auto; /* Make images responsive by setting height to auto */
+                    object-fit: cover; /* Cover the entire area of the image container */
+                }
+            }
+
+            /* Styling for large devices */
+            @media (min-width: 769px) {
+                .c-img {
+                    height: 100%; /* On larger devices, maintain the current behaviour */
+                    object-fit: cover; /* Cover the entire area of the image container */
                 }
             }
         </style>

@@ -128,13 +128,6 @@ footer {
     width: 100%;
 }
 
-@media (max-width: 768px) {
-    .c-item,
-    .c-item2 {
-        height: auto;
-    }
-}
-
 .color {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     color: white;
