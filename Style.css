@@ -344,7 +344,7 @@ h2 {
 
 @media (max-width: 600px) {
     body {
-        background-size: auto;
-        background-position: top center;
+        background-size: 100% auto; /* Zmienia rozmiar obrazu, aby pasował do szerokości */
+        background-position: center center; /* Centruje obraz */
     }
 }
