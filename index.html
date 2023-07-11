@@ -20,6 +20,10 @@
             }
             /* Styling for small devices */
             @media (max-width: 575.98px) {
+                .carousel-item img {
+                    height: auto; /* Make images responsive by setting height to auto */
+                    object-fit: contain; /* Contain the entire image within the image container */
+                }
                 .logo-title {
                     font-size: 2em;
                 }
