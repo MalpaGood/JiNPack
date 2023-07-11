@@ -341,3 +341,10 @@ h2 {
 .custom-image:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 600px) {
+    body {
+        background-size: auto;
+        background-position: top center;
+    }
+}
